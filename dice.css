@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(77, 73, 73);
+}
+
+h1 {
+    font-style: italic;
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(58, 250, 58);
+    font-family: 'Abril Fatface', cursive;
+}
+
+p {
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.footerp {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 7rem;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    border: 2px, solid;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+    margin-left: 20rem;
+}
